@@ -76,7 +76,7 @@ a {
   position: fixed;
   top: 0;
   left: -200px;
-  z-index: 999;
+  z-index: 1001;
   transition: 0.3s;
   border: 1px solid #eee;
   &.open {
