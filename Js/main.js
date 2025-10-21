@@ -155,7 +155,7 @@ function randomizeImgs() {
       let randomNumber = Math.floor(Math.random() * backgroundImgs.length);
       // console.log(randomNumber);
 
-      landingPage.style.backgroundImage = `url('../images/${backgroundImgs[randomNumber]}')`;
+      landingPage.style.backgroundImage = `url('images/${backgroundImgs[randomNumber]}')`;
     }, 10000);
   }
 }
